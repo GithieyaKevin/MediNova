@@ -4,25 +4,6 @@ import 'screens/health_screen.dart';
 import 'screens/profile_screen.dart';
 import 'screens/settings_screen.dart';
 
-void main() => runApp(MediNovaApp());
-
-class MediNovaApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'MediNova',
-      theme: ThemeData(
-        primarySwatch: Colors.teal,
-        fontFamily: 'Poppins',
-      ),
-      debugShowCheckedModeBanner: false,
-      home: MainScreen(),
-    );
-  }
-}
-
-
-
 class MainScreen extends StatefulWidget {
   @override
   State<MainScreen> createState() => _MainScreenState();
